@@ -1,0 +1,72 @@
+.navbar {
+  margin-bottom: 22px;
+}
+
+.sidebar {
+  margin-bottom: 20px;
+}
+
+.footer {
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+textarea {
+  min-height: 300px;
+  resize: none;
+}
+
+.list-group {
+  margin-bottom: 20px;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-exit {
+  display: none;
+}
+
+.img-album {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+}
+
+@media screen and (min-width: 769px) {
+  .img-album {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
+
+.btn-light-border {
+  border-color: #ccc;
+}
+
+.form-control-file {
+  min-height: 45px;
+}
